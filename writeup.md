@@ -94,12 +94,12 @@ Early models showed significant overfitting, with training accuracy exceeding va
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-**TODO**
+
 My final model results were:
 
-* Training set accuracy: ?
-* Validation set accuracy: ?
-* Test set accuracy: ?
+* Training set accuracy: 97.7%
+* Validation set accuracy: 96.3%
+* Test set accuracy: 94.7%
 
 Given the extremely large search space available for creating an optimal CNN traffic sign recognizer, I started with a simple approach and gradually developed my model from there.  The first design was modeled after the LeNet MNIST character reader we developed in Lecture 14, with slight modifications to account for the change in input data (eg 3 color channels vs greyscale).  It provided validation accuracies of 87.5% and 89.6% for 10 and 30 epochs, respectively
 
@@ -138,6 +138,6 @@ The model correctly classifies all the images, which is aligns with the high tes
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The model is extremely confident in its classifications for each of the new images, as shown in the graphs below
+The model is generally very confident in its classifications for each of the new images, as shown in the graphs below, though it is a bit uncertain about the third image.
 
 ![alt text][image6]
