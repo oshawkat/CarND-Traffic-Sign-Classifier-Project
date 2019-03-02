@@ -1,8 +1,7 @@
 ## CNN for Traffic Sign Recognition
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-Overview
----
+### Overview
 
 The goals of this project is to create and train a Convolutional Neural Network (CNN) for recognizing [German traffic signs](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).  You can find some sample images, and their corresponding labels, below
 
