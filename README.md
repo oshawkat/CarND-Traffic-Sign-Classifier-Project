@@ -50,7 +50,7 @@ You can then open the relevant notebook, [Traffic_Sign_Classifier](./Traffic_Sig
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ### Acknowledgments
 
